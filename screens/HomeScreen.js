@@ -45,8 +45,8 @@ const HomeScreen=props=>{
         return value.toFixed(2);
     }
 
-    //const API_KEY='4535d641bf6040309403ce879e61447a'
-    const API_KEY='e5735fe7347b27edfe245a48b8d5a5ff'
+ 
+    const API_KEY='e5735fe7347b27edfe245a48b8d5a5'
     const SLIDER_WIDTH = Dimensions.get('screen').width;
     const ITEM_WIDTH = Math.round(SLIDER_WIDTH * 0.7);
     const getloc=(lat,lon)=>{
