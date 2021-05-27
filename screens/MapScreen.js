@@ -48,7 +48,7 @@ const MapScreen=props=>{
         return value.toFixed(2);
     }
 
-    const API_KEY='e5735fe7347b27edfe245a48b8d5a5ff'
+    const API_KEY='e5735fe7347b27edfe245a48b8d5a'
     const SLIDER_WIDTH = Dimensions.get('screen').width;
     const ITEM_WIDTH = Math.round(SLIDER_WIDTH * 0.7);
     
@@ -103,7 +103,7 @@ const MapScreen=props=>{
     },[lat,long,latitude,longitude])
     
     const findloc=async()=>{
-        Geocoder.init("AIzaSyDsDKH-37DS6ZnGY_oIi7t5YE0oAAZ-V88");
+        Geocoder.init("AIyDsDKH7nGYoIi7t5YE0oA");
         await Geocoder.from(lat, long)
 		.then(json => {
         	addressComponent = json.results[0].formatted_address;
